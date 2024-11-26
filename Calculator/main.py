@@ -152,7 +152,7 @@ class CalculatorApp(ft.Container):
                     self.format_number(abs(float(self.result.value)))
                 )
 
-        # Scientific operations
+        # 科学計算
         elif data == "sin":
             self.result.value = self.format_number(math.sin(math.radians(float(self.result.value))))
         elif data == "cos":
